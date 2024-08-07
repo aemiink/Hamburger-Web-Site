@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFEDBC;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 2% 0 1.25% 0;
+}
+
+.social-media > svg{
+    color: darkred;
+    font-size: xxx-large;
+}
+
+.social-media > svg:hover{
+    transform: translateY(-10px)  scale(1.2);
+    transition: transform 0.4s;
+}
+
+.social-media-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+    margin-left: 32.5%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.social-media-links > a {
+    text-decoration: none;
+    color: darkred;
+}
+
+.Rights{
+    color : darkred;
+    font-size: 20px;
+}

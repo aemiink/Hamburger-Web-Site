@@ -1,0 +1,38 @@
+.contact{
+    height: 100vh;
+    color: #FFEDBC;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10% 0 0 70%;
+
+}
+
+.rightside > form, form>label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input{
+    width: 250%;
+    height: 3vmin;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FFEDBC;;
+}
+textarea{
+    width: 250%;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FFEDBC;;
+}
+
+input:focus, textarea:focus{
+    border: none;
+}
