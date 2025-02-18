@@ -1,4 +1,5 @@
 import menu from '../assets/hamburgerMenu.png'
+import { v4 as uuidv4 } from 'uuid';
 import g1 from '../menus/1.png'
 import g2 from '../menus/2.png'
 import g3 from '../menus/3.png'
@@ -14,83 +15,83 @@ import g11 from '../menus/11.png'
 
 export const Data = [
     {
-        id: 1,
+        id: uuidv4(),
         name: "Efso Burger",
         image: menu,
         content: '150gr Hamburger Meat, Potato & Cola',
         price: "240₺"
     },
     {
-        id: 2,
+        id: uuidv4(),
         name: "Efso Chicken Burger",
         image: g1,
         content: '150gr Hamburger Chicken Meat, Potato & Cola',
         price: "240₺"
     },
     {
-        id: 3,
+        id: uuidv4(),
         name: "AEK King Chicken Burger",
         image:g2,
         content: 'Chicken Meat (Smoked), Potato & Cola',
         price: "240₺"
     },
     {
-        id: 4,
+        id: uuidv4(),
         name: "Efso Cheese Burger",
         image: g3,
         content: '110gr Hamburger Meat, Potato & Cola',
         price: "240₺"
     },
     {
-        id: 5,
+        id: uuidv4(),
         name: "Aek Gourmet Chicken Burger",
         image: g4,
         content: '150gr Grill Chicken Meat, Potato & Cola',
         price: "240₺"
     },
     {
-        id: 6,
+        id: uuidv4(),
         name: "AEK BBQ Burger",
         image: g5,
         content: '150gr Hamburger Meat (BBQ Souse), Potato & Cola',
         price: "240₺"
     },
     {
-        id: 7,
+        id: uuidv4(),
         name: "AEK Classic Burger",
         image: g6,
         content: '100gr Hamburger Meat, Potato & Cola',
         price: "240₺"
     },
     {
-        id: 8,
+        id: uuidv4(),
         name: "AEK Vegan Burger",
         image: g7,
         content: '150gr Vegan Hamburger Meat, Potato & Cola',
         price: "240₺"
     },
     {
-        id: 9,
+        id: uuidv4(),
         name: "Efso Classic Burger",
         image: g8,
         content: '150gr Hamburger Meat, Potato & Cola',
         price: "240₺"
     },
     {
-        id: 10,
+        id: uuidv4(),
         name: "JR. Aek King Burger",
         image: g9,
         content: '150gr Hamburger Meat, Potato & Cola',
         price: "240₺"
     },
     {
-        id: 11,
+        id: uuidv4(),
         name: "Füme Burger",
         image: g10,
         content: '150gr Hamburger Meat, Potato & Cola',
         price: "240₺"
     },
-    {   id: 12,
+    {   id: uuidv4(),
         name: "Kajung Burger",
         image: g11,
         content: '150gr Hamburger Chicken Meat, Potato & Cola ',
