@@ -3,6 +3,23 @@ import contactImage from '../assets/contact.png'
 import '../styles/contact.css'
 
 function Contact() {
+    function handleSubmit(event) {
+        event.preventDefault();
+        
+        if (!name || !email || !message) {
+            alert("All fields are required!");
+            return;
+        }
+    
+        if (!email.includes("@")) {
+            alert("Please enter a valid email address!");
+            return;
+    }
+
+    // Form başarıyla doldurulduğunda gönder
+    console.log("Form submitted:", { name, email, message });
+}
+    
     return (
         <div className="contact" style={{backgroundImage: `url(${contactImage})`}}>
 
@@ -35,7 +52,7 @@ function Contact() {
                             rows="10"
                         />
                     </label>
-                    <button> Send! </button>
+                    <button onClick={handleSubmit}> Send! </button>
                 </form>
             </div>
         </div>
